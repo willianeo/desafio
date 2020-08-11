@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<faces-config version="2.2" xmlns="https://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://xmlns.jcp.org/xml/ns/javaee 
+              https://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
+
+	<application>
+		<resource-bundle>
+			<base-name>com.stefanini.desafio.messages</base-name>
+			<var>msg</var>
+		</resource-bundle>
+
+		<el-resolver>
+			org.springframework.web.jsf.el.SpringBeanFacesELResolver
+		</el-resolver>
+
+	</application>
+	
+</faces-config>
